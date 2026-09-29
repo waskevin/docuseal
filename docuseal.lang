@@ -1,0 +1,99 @@
+# Multilingual file for TOS 7 Docker application. All 14 languages are REQUIRED.
+
+[en-us]
+name = "DocuSeal"
+auth = "waskevin"
+descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[zh-cn]
+name = "DocuSeal"
+auth = "waskevin"
+descript = "DocuSeal 是自托管的电子签名平台，可用 PDF/DOCX 制作模板、发起签署并跟踪签署进度，全部数据保存在你的 TNAS 本地。"
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[zh-hk]
+name = "DocuSeal"
+auth = "waskevin"
+descript = "DocuSeal 是自托管的电子签名平台，可用 PDF/DOCX 制作模板、发起签署并跟踪签署进度，全部数据保存在你的 TNAS 本地。"
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[fr-fr]
+name = "DocuSeal"
+auth = "waskevin"
+descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[de-de]
+name = "DocuSeal"
+auth = "waskevin"
+descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[it-it]
+name = "DocuSeal"
+auth = "waskevin"
+descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[es-es]
+name = "DocuSeal"
+auth = "waskevin"
+descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[hu-hu]
+name = "DocuSeal"
+auth = "waskevin"
+descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[ja-jp]
+name = "DocuSeal"
+auth = "waskevin"
+descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[ko-kr]
+name = "DocuSeal"
+auth = "waskevin"
+descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[pl-pl]
+name = "DocuSeal"
+auth = "waskevin"
+descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[ru-ru]
+name = "DocuSeal"
+auth = "waskevin"
+descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[tr-tr]
+name = "DocuSeal"
+auth = "waskevin"
+descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[pt-pt]
+name = "DocuSeal"
+auth = "waskevin"
+descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
