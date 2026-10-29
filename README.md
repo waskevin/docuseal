@@ -96,6 +96,42 @@ It contains `db.sqlite3` (documents, templates, submissions) and `docuseal.env` 
 - The icon in this repository is original placeholder artwork created for this package; it is **not** the upstream project logo, to avoid trademark issues.
 - This repository contains packaging metadata only. The application itself is developed by the DocuSeal project and distributed under its own license (AGPL-3.0). All credit belongs to the upstream authors.
 
+## License, copyright and source / 许可证、版权与源码
+
+- **Licence of the application**: `AGPL-3.0`.  The full licence text is in
+  [`LICENSE`](LICENSE).
+- **Copyright**: the application is copyright the DocuSeal project and its
+  contributors; the packaging in this repository is copyright (c) 2026
+  waskevin.  See [`NOTICE`](NOTICE) for the full attribution.
+- **Source code**: <https://github.com/docusealco/docuseal>
+- **What this repository contains**: packaging metadata only
+  (`config.ini`, `docuseal.lang`, `docuseal.svg`, `docker-compose.yml` and
+  documentation).  It embeds no application source code and no binaries; the
+  image is pulled from Docker Hub on the user's device.
+
+## Privacy / 隐私
+
+- Full policy: [`PRIVACY.md`](PRIVACY.md)
+  (<https://github.com/waskevin/docuseal/blob/main/PRIVACY.md>), also reachable
+  from App Center through the `help` link in `config.ini`.
+- All application data stays on the device, under
+  `/Volume<N>/DockerAppData/docuseal/data`.
+- **No telemetry, no analytics, no upload to the publisher.**  The only
+  outbound request made by the package is the one-time image pull from Docker
+  Hub at install time.
+- Optional SMTP delivery sends e-mail to the recipients you address; nothing is sent unless an administrator configures an SMTP server.
+
+## Third-party services and data destinations / 第三方服务与数据流向
+
+- **Default configuration: none.**  The package configures no external
+  endpoint, no account, no analytics service and no cloud storage.
+- **Install/update**: the TOS platform pulls `docuseal/docuseal:3.3.4` from Docker Hub
+  (`hub.docker.com`, Docker, Inc.) - your IP address and the image name are
+  visible to that registry.
+- **Runtime**: the container serves plain HTTP on LAN port `10010` and makes
+  no other outbound connection by default.
+- **Optional, off by default**: if an administrator configures an SMTP server, DocuSeal sends signing invitations and notifications to the addresses you enter.  That e-mail (recipient address, subject, message text and a signing link) is delivered through the SMTP server **you** configure.  No SMTP server is configured or bundled by this package.
+
 ## Links
 
 - Upstream project: https://github.com/docusealco/docuseal
