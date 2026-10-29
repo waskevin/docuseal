@@ -4,96 +4,96 @@
 name = "DocuSeal"
 auth = "waskevin"
 descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.1: added licence/attribution notices and a privacy policy and upgraded the container image to 3.3.4."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: AGPL-3.0. Source code, notices and privacy policy: https://github.com/waskevin/docuseal"
 
 [zh-cn]
 name = "DocuSeal"
 auth = "waskevin"
 descript = "DocuSeal 是自托管的电子签名平台，可用 PDF/DOCX 制作模板、发起签署并跟踪签署进度，全部数据保存在你的 TNAS 本地。"
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.1：补充许可证/版权声明与隐私政策，并升级容器镜像到 3.3.4。"
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. 许可证：AGPL-3.0。源码、版权声明与隐私政策：https://github.com/waskevin/docuseal"
 
 [zh-hk]
 name = "DocuSeal"
 auth = "waskevin"
 descript = "DocuSeal 是自托管的电子签名平台，可用 PDF/DOCX 制作模板、发起签署并跟踪签署进度，全部数据保存在你的 TNAS 本地。"
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.1：补充许可证/版权声明与隐私政策，并升级容器镜像到 3.3.4。"
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. 许可证：AGPL-3.0。源码、版权声明与隐私政策：https://github.com/waskevin/docuseal"
 
 [fr-fr]
 name = "DocuSeal"
 auth = "waskevin"
 descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.1: added licence/attribution notices and a privacy policy and upgraded the container image to 3.3.4."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: AGPL-3.0. Source code, notices and privacy policy: https://github.com/waskevin/docuseal"
 
 [de-de]
 name = "DocuSeal"
 auth = "waskevin"
 descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.1: added licence/attribution notices and a privacy policy and upgraded the container image to 3.3.4."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: AGPL-3.0. Source code, notices and privacy policy: https://github.com/waskevin/docuseal"
 
 [it-it]
 name = "DocuSeal"
 auth = "waskevin"
 descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.1: added licence/attribution notices and a privacy policy and upgraded the container image to 3.3.4."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: AGPL-3.0. Source code, notices and privacy policy: https://github.com/waskevin/docuseal"
 
 [es-es]
 name = "DocuSeal"
 auth = "waskevin"
 descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.1: added licence/attribution notices and a privacy policy and upgraded the container image to 3.3.4."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: AGPL-3.0. Source code, notices and privacy policy: https://github.com/waskevin/docuseal"
 
 [hu-hu]
 name = "DocuSeal"
 auth = "waskevin"
 descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.1: added licence/attribution notices and a privacy policy and upgraded the container image to 3.3.4."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: AGPL-3.0. Source code, notices and privacy policy: https://github.com/waskevin/docuseal"
 
 [ja-jp]
 name = "DocuSeal"
 auth = "waskevin"
 descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.1: added licence/attribution notices and a privacy policy and upgraded the container image to 3.3.4."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: AGPL-3.0. Source code, notices and privacy policy: https://github.com/waskevin/docuseal"
 
 [ko-kr]
 name = "DocuSeal"
 auth = "waskevin"
 descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.1: added licence/attribution notices and a privacy policy and upgraded the container image to 3.3.4."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: AGPL-3.0. Source code, notices and privacy policy: https://github.com/waskevin/docuseal"
 
 [pl-pl]
 name = "DocuSeal"
 auth = "waskevin"
 descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.1: added licence/attribution notices and a privacy policy and upgraded the container image to 3.3.4."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: AGPL-3.0. Source code, notices and privacy policy: https://github.com/waskevin/docuseal"
 
 [ru-ru]
 name = "DocuSeal"
 auth = "waskevin"
 descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.1: added licence/attribution notices and a privacy policy and upgraded the container image to 3.3.4."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: AGPL-3.0. Source code, notices and privacy policy: https://github.com/waskevin/docuseal"
 
 [tr-tr]
 name = "DocuSeal"
 auth = "waskevin"
 descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.1: added licence/attribution notices and a privacy policy and upgraded the container image to 3.3.4."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: AGPL-3.0. Source code, notices and privacy policy: https://github.com/waskevin/docuseal"
 
 [pt-pt]
 name = "DocuSeal"
 auth = "waskevin"
 descript = "DocuSeal is a self-hosted document signing platform. Build reusable templates from PDF or DOCX files, send them for signature and track every submission, with the data stored only on your TNAS."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.1: added licence/attribution notices and a privacy policy and upgraded the container image to 3.3.4."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: AGPL-3.0. Source code, notices and privacy policy: https://github.com/waskevin/docuseal"
