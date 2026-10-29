@@ -1,0 +1,28 @@
+DocuSeal for TerraMaster TOS 7 - notices
+=========================================
+
+Packaging (config.ini, docuseal.lang, docuseal.svg, docker-compose.yml, README.md,
+PRIVACY.md, LICENSE): Copyright (c) 2026 waskevin.
+
+The application itself is NOT part of this repository and is NOT authored by
+the packager.  It is developed by the DocuSeal project and its contributors,
+who hold the copyright in the application code.  All credit for the
+application belongs to them.
+
+Upstream project / source code : https://github.com/docusealco/docuseal
+License                        : AGPL-3.0 (full text in LICENSE)
+Image distribution             : https://hub.docker.com/r/docuseal/docuseal
+Privacy policy                 : PRIVACY.md (this repository)
+
+This repository contains packaging metadata only.  It embeds no application
+code, no binaries and no credentials.  The Docker image is pulled from Docker
+Hub on the user's device at install time.
+
+Trademarks: "TerraMaster" and "TOS" are trademarks of TerraMaster.  "DocuSeal"
+and its logo are the property of the DocuSeal project.  The icon shipped in this
+package is original placeholder artwork drawn for this package and is not the
+upstream project logo; no trademark licence is claimed or implied.
+
+Third-party components: the container image is built and published by the
+DocuSeal project and contains its own dependencies.  Their notices are available
+from the upstream project.  This package adds no third-party code.
