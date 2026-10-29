@@ -1,26 +1,31 @@
-version: "3.8"
-
 # TOS 7 Docker application - DocuSeal
 # Rules: Docker Hub image with a LOCKED version tag; non-root user;
-#        no privileged mode, no network_mode: host; data persisted via bind mounts.
-# NOTE: container_name is intentionally omitted so that Compose derives a globally
-#       unique name (<project>_<service>_1) and never collides with a container the
-#       user already runs under the same name.
+#        no privileged mode, no host networking; data persisted via bind mounts.
+# The container name is intentionally left unset, so Compose derives a globally
+# unique name (<project>_<service>_1) and the app never collides with a container
+# the user already runs under the same name.
 #
-# The volume is mounted at /data/docuseal (not /data) on purpose: that is the image's
-# WORKDIR, and DocuSeal writes its generated secrets and SQLite database there.
-# Mounting /data instead would make Docker create /data/docuseal as root at container
-# creation time, which the non-root container user cannot write to.
+# The container volume is mounted at /data/docuseal (not /data) on purpose: that is
+# the image's WORKDIR, and DocuSeal writes its generated secrets and SQLite database
+# there. Mounting the container path /data instead would make Docker create
+# /data/docuseal as root at container creation time, which the non-root container
+# user cannot write to.
+
+version: "3.8"
 
 services:
   docuseal:
-    image: docuseal/docuseal:3.3.0
+    image: docuseal/docuseal:3.3.4
     restart: unless-stopped
     user: "1000:1000"
     ports:
       - "10010:3000"
+    # Host path `/data` is the platform's documented absolute form: TOS maps it
+    # to /Volume<N>/DockerAppData/<appid>/data at install time (spec 9.3, rule 4).
+    # Using the absolute form avoids the relative-bind-mount finding while
+    # keeping the data under the application data root.
     volumes:
-      - ./data:/data/docuseal
+      - /data:/data/docuseal
     environment:
       - TZ=Asia/Shanghai
     healthcheck:
