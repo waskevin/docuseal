@@ -62,7 +62,7 @@ Everything is stored locally on your TNAS, in the application data root:
   package or by its default configuration.
 - The only outbound request made by the package itself happens **once, at
   install/update time**: the TOS platform pulls the container image
-  `docuseal/docuseal:3.3.4` from **Docker Hub** (`hub.docker.com`, operated by Docker, Inc.).
+  `docuseal/docuseal:3.3.6` from **Docker Hub** (`hub.docker.com`, operated by Docker, Inc.).
   Docker Hub sees your public IP address and the requested image name, as with
   any HTTP request.  See <https://www.docker.com/legal/privacy/>.
 - At runtime the container serves the web UI over plain HTTP on your LAN at
