@@ -125,7 +125,7 @@ It contains `db.sqlite3` (documents, templates, submissions) and `docuseal.env` 
 
 - **Default configuration: none.**  The package configures no external
   endpoint, no account, no analytics service and no cloud storage.
-- **Install/update**: the TOS platform pulls `docuseal/docuseal:3.3.4` from Docker Hub
+- **Install/update**: the TOS platform pulls `docuseal/docuseal:3.3.6` from Docker Hub
   (`hub.docker.com`, Docker, Inc.) - your IP address and the image name are
   visible to that registry.
 - **Runtime**: the container serves plain HTTP on LAN port `10010` and makes
